@@ -1,0 +1,18 @@
+body { background-color: beige; 
+       color: black;
+       font-family: Arial, Verdana, sans-serif; }
+ h1 { background-color: darkred; 
+     color: #E2FFFF; 
+	 line-height: 200%;
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-indent: 1em;
+	 text-shadow: 3px 3px 5px #000000; }
+h2 { background-color: rosybrown; 
+     color: whitesmoke; 
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-align: center;  }
+ol {font-weight: bold;line-height: 1.6;}
+
+ul { font-weight: bold;margin: 50px;line-height: 1.6;text-transform: capitalize;} 
+.feature { color: #C70000; }
+
