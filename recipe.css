@@ -1,18 +1,48 @@
 body { background-color: beige; 
        color: black;
-       font-family: Arial, Verdana, sans-serif; }
+       font-family: Arial, Verdana, sans-serif; 
+   }
  h1 { background-color: darkred; 
      color: #E2FFFF; 
 	 line-height: 200%;
 	 font-family: Georgia, "Times New Roman", serif;
 	 text-indent: 1em;
-	 text-shadow: 3px 3px 5px #000000; }
+	 text-shadow: 3px 3px 5px #000000;
+	 text-align: center;
+	}
 h2 { background-color: rosybrown; 
      color: whitesmoke; 
 	 font-family: Georgia, "Times New Roman", serif;
-	 text-align: center;  }
-ol {font-weight: bold;line-height: 1.6;}
+	 text-align: center;  
+	}
+ol {font-weight: bold;
+	line-height: 1.6;
+}
 
-ul { font-weight: bold;margin: 50px;line-height: 1.6;text-transform: capitalize;} 
-.feature { color: #C70000; }
+ul { font-weight: bold;margin: 50px;
+	line-height: 1.6;
+	text-transform: capitalize;
+} 
+.feature { color: #C70000; 
+}
+
+#wrapper{ width: 80%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  color: black;
+
+}
+#ingredient{float: left;
+			width: 40%;
+}
+footer{
+	clear: left;
+	margin-left: 14%;
+	margin-right: left;
+
+}
+ a:link { color: #darkred; }
+a:visted{ color: darkblue; }
+a:hover { text-decoration: none;
+          color: darkred; }
 
